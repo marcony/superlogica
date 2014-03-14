@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e1f13c9-7c80-45a2-8a58-aa11042fd768" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Api.php" afterPath="$PROJECT_DIR$/src/Superlogica/Api.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Api/AbstractApi.php" afterPath="$PROJECT_DIR$/src/Superlogica/Api/AbstractApi.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Api/Clientes.php" afterPath="$PROJECT_DIR$/src/Superlogica/Api/Clientes.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Api/Configuracoes.php" afterPath="$PROJECT_DIR$/src/Superlogica/Api/Configuracoes.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Api/Contatos.php" afterPath="$PROJECT_DIR$/src/Superlogica/Api/Contatos.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Api/Planos.php" afterPath="$PROJECT_DIR$/src/Superlogica/Api/Planos.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Api/Receitas.php" afterPath="$PROJECT_DIR$/src/Superlogica/Api/Receitas.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Api/Revenda.php" afterPath="$PROJECT_DIR$/src/Superlogica/Api/Revenda.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/index.php" afterPath="$PROJECT_DIR$/tests/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="superlogica.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,10 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="2" selection-start="214" selection-end="214" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="345">
+            <state line="12" column="10" selection-start="176" selection-end="176" vertical-scroll-proportion="0.2760736" vertical-offset="0" max-vertical-offset="652">
               <folding>
                 <element signature="e#6#87#0" expanded="true" />
               </folding>
@@ -54,10 +45,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Api.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Api.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Superlogica/Api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="152" column="0" selection-start="3751" selection-end="3751" vertical-scroll-proportion="0.68075114" vertical-offset="1845" max-vertical-offset="4560">
+            <state line="152" column="0" selection-start="3751" selection-end="3751" vertical-scroll-proportion="-18.125" vertical-offset="1845" max-vertical-offset="4560">
               <folding />
             </state>
           </provider>
@@ -100,8 +91,8 @@
         <option value="$PROJECT_DIR$/src/Api/Revenda.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
-        <option value="$PROJECT_DIR$/tests/index.php" />
         <option value="$PROJECT_DIR$/src/Superlogica/Api.php" />
+        <option value="$PROJECT_DIR$/tests/index.php" />
       </list>
     </option>
   </component>
@@ -408,19 +399,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/index.php">
+    <entry file="file://$PROJECT_DIR$/src/Superlogica/Api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="2" selection-start="214" selection-end="214" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="345">
-          <folding>
-            <element signature="e#6#87#0" expanded="true" />
-          </folding>
+        <state line="152" column="0" selection-start="3751" selection-end="3751" vertical-scroll-proportion="-18.125" vertical-offset="1845" max-vertical-offset="4560">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Superlogica/Api.php">
+    <entry file="file://$PROJECT_DIR$/tests/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="0" selection-start="3751" selection-end="3751" vertical-scroll-proportion="0.68075114" vertical-offset="1845" max-vertical-offset="4560">
-          <folding />
+        <state line="12" column="10" selection-start="176" selection-end="176" vertical-scroll-proportion="0.2760736" vertical-offset="0" max-vertical-offset="652">
+          <folding>
+            <element signature="e#6#87#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
