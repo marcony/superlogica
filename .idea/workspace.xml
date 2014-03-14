@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e1f13c9-7c80-45a2-8a58-aa11042fd768" name="Default" comment="" />
+    <list default="true" id="7e1f13c9-7c80-45a2-8a58-aa11042fd768" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Api.php" afterPath="$PROJECT_DIR$/src/Superlogica/Api.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Api/AbstractApi.php" afterPath="$PROJECT_DIR$/src/Superlogica/Api/AbstractApi.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Api/Clientes.php" afterPath="$PROJECT_DIR$/src/Superlogica/Api/Clientes.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Api/Configuracoes.php" afterPath="$PROJECT_DIR$/src/Superlogica/Api/Configuracoes.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Api/Contatos.php" afterPath="$PROJECT_DIR$/src/Superlogica/Api/Contatos.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Api/Planos.php" afterPath="$PROJECT_DIR$/src/Superlogica/Api/Planos.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Api/Receitas.php" afterPath="$PROJECT_DIR$/src/Superlogica/Api/Receitas.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Api/Revenda.php" afterPath="$PROJECT_DIR$/src/Superlogica/Api/Revenda.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/index.php" afterPath="$PROJECT_DIR$/tests/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="superlogica.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,28 +43,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="autoload_classmap.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_classmap.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="225">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="autoload_namespaces.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_namespaces.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="255">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="10" selection-start="176" selection-end="176" vertical-scroll-proportion="0.30405405" vertical-offset="0" max-vertical-offset="592">
+            <state line="13" column="2" selection-start="214" selection-end="214" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="345">
               <folding>
                 <element signature="e#6#87#0" expanded="true" />
               </folding>
@@ -61,19 +54,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Api.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Api.php">
+      <file leaf-file-name="Api.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Superlogica/Api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="270" column="7" selection-start="7788" selection-end="7788" vertical-scroll-proportion="-168.75" vertical-offset="0" max-vertical-offset="4515">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="autoload_real.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="581" selection-end="581" vertical-scroll-proportion="-1.9583334" vertical-offset="283" max-vertical-offset="885">
+            <state line="152" column="0" selection-start="3751" selection-end="3751" vertical-scroll-proportion="0.68075114" vertical-offset="1845" max-vertical-offset="4560">
               <folding />
             </state>
           </provider>
@@ -82,18 +66,7 @@
       <file leaf-file-name="ClassLoader.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/composer/ClassLoader.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="266" column="5" selection-start="8156" selection-end="8156" vertical-scroll-proportion="-4.875" vertical-offset="3873" max-vertical-offset="5550">
-              <folding>
-                <element signature="e#7#267#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="autoload.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="195">
+            <state line="267" column="0" selection-start="8157" selection-end="8157" vertical-scroll-proportion="-6.875" vertical-offset="3720" max-vertical-offset="5430">
               <folding />
             </state>
           </provider>
@@ -109,6 +82,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -121,16 +99,16 @@
         <option value="$PROJECT_DIR$/src/Api/Receitas.php" />
         <option value="$PROJECT_DIR$/src/Api/Revenda.php" />
         <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
         <option value="$PROJECT_DIR$/tests/index.php" />
+        <option value="$PROJECT_DIR$/src/Superlogica/Api.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="22" />
-    <option name="width" value="1260" />
-    <option name="height" value="736" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -236,6 +214,10 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Superlogica" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -244,14 +226,39 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
+  <component name="PublishConfig">
+    <servers>
+      <server id="79913aa0-62eb-4895-9dc4-203dbb43ae94">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="9d79cec7-889c-4886-839c-39cae6677b65">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Superlogica" />
     </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
@@ -275,27 +282,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="22" width="1260" height="736" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298351" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25445706" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298351" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -315,75 +322,75 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Api/Configuracoes.php">
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="21" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="10" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="345">
+          <folding>
+            <element signature="e#6#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Superlogica/Api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="270" column="7" selection-start="7788" selection-end="7788" vertical-scroll-proportion="0.0" vertical-offset="4050" max-vertical-offset="4515">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Superlogica/Api/Configuracoes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="75" selection-end="75" vertical-scroll-proportion="0.12195122" vertical-offset="0" max-vertical-offset="795">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Api/Planos.php">
+    <entry file="file://$PROJECT_DIR$/src/Superlogica/Api/Planos.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="480">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Api/AbstractApi.php">
+    <entry file="file://$PROJECT_DIR$/src/Superlogica/Api/AbstractApi.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="62" selection-end="62" vertical-scroll-proportion="-0.048780486" vertical-offset="105" max-vertical-offset="720">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Api/Clientes.php">
+    <entry file="file://$PROJECT_DIR$/src/Superlogica/Api/Clientes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="70" selection-end="70" vertical-scroll-proportion="-1.2209302" vertical-offset="810" max-vertical-offset="2145">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Api/Contatos.php">
+    <entry file="file://$PROJECT_DIR$/src/Superlogica/Api/Contatos.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="71" selection-end="71" vertical-scroll-proportion="0.14634146" vertical-offset="0" max-vertical-offset="660">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Api/Receitas.php">
+    <entry file="file://$PROJECT_DIR$/src/Superlogica/Api/Receitas.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="70" selection-end="70" vertical-scroll-proportion="-4.1578074" vertical-offset="2578" max-vertical-offset="3180">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Api/Revenda.php">
+    <entry file="file://$PROJECT_DIR$/src/Superlogica/Api/Revenda.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="242" column="22" selection-start="7149" selection-end="7149" vertical-scroll-proportion="0.43037975" vertical-offset="3460" max-vertical-offset="3855">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="639">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="581" selection-end="581" vertical-scroll-proportion="-1.9583334" vertical-offset="283" max-vertical-offset="885">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/ClassLoader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="266" column="5" selection-start="8156" selection-end="8156" vertical-scroll-proportion="-4.875" vertical-offset="3873" max-vertical-offset="5550">
-          <folding>
-            <element signature="e#7#267#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -394,33 +401,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_classmap.php">
+    <entry file="file://$PROJECT_DIR$/vendor/composer/ClassLoader.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="639">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_namespaces.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="639">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="270" column="7" selection-start="7788" selection-end="7788" vertical-scroll-proportion="-168.75" vertical-offset="0" max-vertical-offset="4515">
+        <state line="267" column="0" selection-start="8157" selection-end="8157" vertical-scroll-proportion="-6.875" vertical-offset="3720" max-vertical-offset="5430">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="10" selection-start="176" selection-end="176" vertical-scroll-proportion="0.30405405" vertical-offset="0" max-vertical-offset="592">
+        <state line="13" column="2" selection-start="214" selection-end="214" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="345">
           <folding>
             <element signature="e#6#87#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Superlogica/Api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="152" column="0" selection-start="3751" selection-end="3751" vertical-scroll-proportion="0.68075114" vertical-offset="1845" max-vertical-offset="4560">
+          <folding />
         </state>
       </provider>
     </entry>

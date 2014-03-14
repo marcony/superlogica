@@ -8,10 +8,10 @@
 
 require_once __DIR__."/../vendor/autoload.php";
 
-$usuario = "";
-$senha = "";
-$conta = "";
-
+$usuario = "api@dexto.com.br";
+$senha = "api181818";
+$conta = "dextotec";
+//error_reporting(~E_NOTICE);
 $api = new \Superlogica\Api('https://superlogica.net/financeiro/atual');
 $api->login($usuario, $senha, $conta);
 
