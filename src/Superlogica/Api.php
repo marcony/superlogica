@@ -11,7 +11,7 @@ class Api {
      */
     protected $_url = null;
     /**
-     * Conexão curl
+     * Conexï¿½o curl
      *
      * @var integer
      */
@@ -24,14 +24,14 @@ class Api {
     protected $_session = '';
     
     /**
-     * Armazena o nome da licença utilizada
+     * Armazena o nome da licenï¿½a utilizada
      * @var string
      */
     protected $_licenca = '';
     
     /**
-     * Armazena o retorna da ultima requisição
-     * Utilizado nas outras funções como getData, getMsg e getStatus
+     * Armazena o retorna da ultima requisiï¿½ï¿½o
+     * Utilizado nas outras funï¿½ï¿½es como getData, getMsg e getStatus
      * @var array
      */
     protected $_retorno = null;
@@ -62,7 +62,7 @@ class Api {
     }
     
     /**
-     * Seta o id da sessão
+     * Seta o id da sessï¿½o
      * @param string $sessionId
      */
     public function setSessionId($sessionId){
@@ -120,7 +120,7 @@ class Api {
     
     
     /**
-     * Faz uma requisição
+     * Faz uma requisiï¿½ï¿½o
      *
      * @param string $action
      * @param array $params
@@ -142,12 +142,15 @@ class Api {
         $_params = $params;
         if (!$upload){
             $_params = array();
-            if (!is_array($params[0])) {
-                $tempParams = $params;
-                $params = array();
-                $params[0] = $tempParams;
+            if (isset($params[0])){
+                if (!is_array($params[0])) {
+                    $tempParams = $params;
+                    $params = array();
+                    $params[0] = $tempParams;
+                }
             }
             $_params['json'] = json_encode(array('params' => $params ));
+
         }
         
         if ( $this->_debugFile ){
@@ -178,11 +181,11 @@ class Api {
             return $result;
         }
 
-        throw new Exception("Falha na requisição para: $this->_url/$action Erro: " . curl_error($this->_curl) . $result, "500");
+        throw new Exception("Falha na requisiï¿½ï¿½o para: $this->_url/$action Erro: " . curl_error($this->_curl) . $result, "500");
     }
     
     /**
-     * Responsável por disparar exceptions de acordo com o json de retorno informado
+     * Responsï¿½vel por disparar exceptions de acordo com o json de retorno informado
      * @throw Exception
      * @param array $response
      */
@@ -206,7 +209,7 @@ class Api {
     }
     
     /**
-     * Retorna a url do aplicativo que está sendo utilizado
+     * Retorna a url do aplicativo que estï¿½ sendo utilizado
      * @return string
      */
     public function getUrlApplication( $app ){
@@ -215,16 +218,16 @@ class Api {
     
     /**
      * Retorna o data do result passado
-     * Utilizado no caso de multiple response e é ncessário apenas o primeiro item da requisição
+     * Utilizado no caso de multiple response e ï¿½ ncessï¿½rio apenas o primeiro item da requisiï¿½ï¿½o
      * 
      * FUNCIONANDO COMO NO JS_REQUEST 
      * 
-     * @param array|int $retornoOuIndice um array de retorno ou o índice do data a ser retornado
+     * @param array|int $retornoOuIndice um array de retorno ou o ï¿½ndice do data a ser retornado
      * @return array
      */
     public function getData( $retornoOuIndice = '0' ){   
         
-        // Mantendo compatibilidade com código anterior
+        // Mantendo compatibilidade com cï¿½digo anterior
         if ( is_array($retornoOuIndice) ){
             if ( is_array( $retornoOuIndice['data'] ) && $retornoOuIndice['data'][0]['data'] )
                 return $retornoOuIndice['data'][0]['data'];
@@ -252,7 +255,7 @@ class Api {
     }
     
     /**
-     * Retorna o status da requisição
+     * Retorna o status da requisiï¿½ï¿½o
      * @return int
      */
     public function getStatus(){
@@ -269,7 +272,7 @@ class Api {
     }
     
     /**
-     * Retorna a msg da requisição
+     * Retorna a msg da requisiï¿½ï¿½o
      * @return string
      */
     public function getMsg(){
@@ -284,7 +287,7 @@ class Api {
     }
     
     /**
-     * Verifica se a requisição é válida
+     * Verifica se a requisiï¿½ï¿½o ï¿½ vï¿½lida
      * @return bool
      */
     public function isValid(){
