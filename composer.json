@@ -1,5 +1,5 @@
 {
-    "name": "marcony",
+    "name": "marcony/superlogica",
     "description": "Pacote composer da API da SuperLógica",
     "license": "MIT",
     "type": "library",
