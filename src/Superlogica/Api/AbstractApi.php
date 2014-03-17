@@ -1,6 +1,7 @@
 <?php
 
 namespace Superlogica\Api;
+use Superlogica\Api;
 
 abstract class AbstractApi
 {
