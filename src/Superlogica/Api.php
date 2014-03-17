@@ -1,6 +1,7 @@
 <?php
 
 namespace Superlogica;
+use Exception;
 
 class Api {
 
